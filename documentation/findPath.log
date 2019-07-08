@@ -1,0 +1,146 @@
+Total pathways:   44
+Metabolic composition filter:   36
+Length filter:   36
+Export filter:   15
+
+pathways information:
+pathways name: test_1, length size:   3, efficiency value: 0.287866
+R1: xyl-D[c]  <=> xylu-D[c] 
+R2: xylu-D[c] + atp[c]  -> xu5p-D[c] + adp[c] + h[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_2, length size:   4, efficiency value: 0.287866
+R2: xylu-D[c] + atp[c]  -> xu5p-D[c] + adp[c] + h[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_3, length size:   6, efficiency value: 0.293734
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R2: xylu-D[c] + atp[c]  -> xu5p-D[c] + adp[c] + h[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_4, length size:   6, efficiency value: 0.287866
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_5, length size:   6, efficiency value: 0.287866
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_6, length size:   7, efficiency value: 0.293734
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_7, length size:   7, efficiency value: 0.287866
+R11: 2ddara[c]  <=> hacald[c] + pyr[c] 
+R12: hacald[c] + a[c]  -> glyclt[c] + ah[c] 
+R13: nad[c] + glyclt[c]  <=> nadh[c] + glx[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_8, length size:   7, efficiency value: 0.287866
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R11: 2ddara[c]  <=> hacald[c] + pyr[c] 
+R12: hacald[c] + a[c]  -> glyclt[c] + ah[c] 
+R13: nad[c] + glyclt[c]  <=> nadh[c] + glx[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_9, length size:   8, efficiency value: 0.293734
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R11: 2ddara[c]  <=> hacald[c] + pyr[c] 
+R12: hacald[c] + a[c]  -> glyclt[c] + ah[c] 
+R13: nad[c] + glyclt[c]  <=> nadh[c] + glx[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_10, length size:   9, efficiency value: 0.293734
+R1: xyl-D[c]  <=> xylu-D[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_11, length size:   9, efficiency value: 0.293734
+R1: xyl-D[c]  <=> xylu-D[c] 
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_12, length size:   9, efficiency value: 0.287866
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R2: xylu-D[c] + atp[c]  -> xu5p-D[c] + adp[c] + h[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_13, length size:   9, efficiency value: 0.287866
+R2: xylu-D[c] + atp[c]  -> xu5p-D[c] + adp[c] + h[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+R8: 2ddara[c]  -> h2o[c] + dptn[c] 
+R9: nadp[c] + h2o[c] + dptn[c]  -> nadph[c] + akg[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_14, length size:  10, efficiency value: 0.293734
+R1: xyl-D[c]  <=> xylu-D[c] 
+R11: 2ddara[c]  <=> hacald[c] + pyr[c] 
+R12: hacald[c] + a[c]  -> glyclt[c] + ah[c] 
+R13: nad[c] + glyclt[c]  <=> nadh[c] + glx[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R5: xyl-D[c] + nadp[c]  <=> nadph[c] + xylo-D[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+
+pathways name: test_15, length size:  10, efficiency value: 0.293734
+R1: xyl-D[c]  <=> xylu-D[c] 
+R10: xyl-D[c] + nad[c]  <=> nadh[c] + xylo-D[c] 
+R11: 2ddara[c]  <=> hacald[c] + pyr[c] 
+R12: hacald[c] + a[c]  -> glyclt[c] + ah[c] 
+R13: nad[c] + glyclt[c]  <=> nadh[c] + glx[c] 
+R3: xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c] 
+R4: xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c] 
+R6: xylo-D[c] + h2o[c]  -> h[c] + xylnt-D[c] 
+R7: xylnt-D[c]  -> h2o[c] + 2ddara[c] 
+Xyltex: xyl-D[e]  <=> xyl-D[c] 
+

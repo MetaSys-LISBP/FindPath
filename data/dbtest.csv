@@ -1,0 +1,30 @@
+RXN ID;RXN NAME;EQUATION;REVERSIBILITY
+R1;XYLISOM-RXN;xyl-D[c] <=> xylu-D[c];1
+R2;XYLULOKIN-RXN;xylu-D[c] + atp[c] -> xu5p-D[c] + adp[c] + h[c];0
+R3;RXN-8773;xylt[c] + nadp[c]  <=> xyl-D[c] + nadph[c];1
+R4;D-XYLULOSE-REDUCTASE-RXN;xylt[c] + nad[c]  <=> xylu-D[c] + nadh[c];1
+R5;D-XYLOSE-1-DEHYDROGENASE-NADP+-RXN;xyl-D[c] + nadp[c]  <=>   xylo-D[c] + nadph[c];1
+R6;HYPO-RXN; xylo-D[c] + h2o[c] -> xylnt-D[c] + h[c];0
+R7;XYLONATE-DEHYDRATASE-RXN; xylnt-D[c] -> 2ddara[c] + h2o[c];0
+R8;RXN-8777;2ddara[c]  -> dptn[c] + h2o[c];0
+R9;25-DIOXOVALERATE-DEHYDROGENASE-RXN;dptn[c] + nadp[c] + h2o[c] -> akg[c] + nadph[c];0
+R10;RXN-14641;xyl-D[c] + nad[c]  <=>   xylo-D[c] + nadh[c];1
+R11;4.1.2.28-RXN;2ddara[c]  <=>  hacald[c] + pyr[c];1
+R12;RXN-14642;hacald[c] + a[c] -> glyclt[c] + ah[c];0
+R13;GLYCOLATE-REDUCTASE-RXN;glyclt[c] + nad[c] <=> glx[c] + nadh[c];1
+EX_xyl(e);XylIn; -> xyl-D[e];1
+EX_atp(e);atpOut;atp[c] <=>;1
+EX_adp(e);adpOut;adp[c] <=>;1
+EX_xu5p-D(e);xu5pOut;xu5p-D[c] <=>;1
+EX_h(e);h;h[c] <=>;1
+EX_h2o(e);h2o;h2o[c] <=>;1
+EX_akg(e);akgOut;akg[c] <=>;1
+EX_pyr(e);pyrOut;pyr[c] <=>;1
+EX_oea(e);OxielecaccptOut;a[c] <=>;1
+EX_rea(e);RedelecaccptOut;ah[c] <=>;1
+EX_nadp(e);nadpEx;nadp[c] <=>;1
+EX_nadph(e);nadphEX;nadph[c] <=>;1
+Ex_nad(e);nadEx;nad[c] <=>;1
+Ex_nadh(e);nadhEx;nadh[c] <=>;1
+EX_glx(e);glxOut;glx[c] <=>;1
+Xyltex;Xyl transport via diffusion (extracellular to periplasm);xyl-D[e] <=> xyl-D[c];1
